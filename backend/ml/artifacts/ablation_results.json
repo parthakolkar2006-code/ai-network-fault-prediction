@@ -1,0 +1,57 @@
+[
+  {
+    "feature_group": "ICMP-only features",
+    "feature_count": 21,
+    "optimal_threshold": 0.37,
+    "pr_auc": 0.158,
+    "roc_auc": 0.5298,
+    "precision": 0.1585,
+    "recall": 0.358,
+    "f1": 0.2197,
+    "f2": 0.286
+  },
+  {
+    "feature_group": "ICMP + SNMP",
+    "feature_count": 39,
+    "optimal_threshold": 0.53,
+    "pr_auc": 0.1415,
+    "roc_auc": 0.4778,
+    "precision": 0.097,
+    "recall": 0.0802,
+    "f1": 0.0878,
+    "f2": 0.0831
+  },
+  {
+    "feature_group": "ICMP + SNMP + Interface metrics",
+    "feature_count": 67,
+    "optimal_threshold": 0.01,
+    "pr_auc": 0.1821,
+    "roc_auc": 0.4853,
+    "precision": 0.1452,
+    "recall": 0.4938,
+    "f1": 0.2244,
+    "f2": 0.3336
+  },
+  {
+    "feature_group": "All network telemetry features",
+    "feature_count": 23,
+    "optimal_threshold": 0.01,
+    "pr_auc": 0.1854,
+    "roc_auc": 0.4705,
+    "precision": 0.1339,
+    "recall": 0.2901,
+    "f1": 0.1832,
+    "f2": 0.2352
+  },
+  {
+    "feature_group": "All telemetry + router topology",
+    "feature_count": 79,
+    "optimal_threshold": 0.01,
+    "pr_auc": 0.1671,
+    "roc_auc": 0.4312,
+    "precision": 0.1206,
+    "recall": 0.358,
+    "f1": 0.1804,
+    "f2": 0.2569
+  }
+]

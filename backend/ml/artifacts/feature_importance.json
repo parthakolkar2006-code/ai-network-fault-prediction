@@ -1,0 +1,102 @@
+[
+  {
+    "feature": "r1_uptime",
+    "importance": 2.00826
+  },
+  {
+    "feature": "r7_uptime",
+    "importance": 1.63253
+  },
+  {
+    "feature": "uptime_min",
+    "importance": 1.46661
+  },
+  {
+    "feature": "r3_uptime",
+    "importance": 1.22921
+  },
+  {
+    "feature": "bits_received_total",
+    "importance": 1.2061
+  },
+  {
+    "feature": "r4_uptime",
+    "importance": 1.10261
+  },
+  {
+    "feature": "r2_uptime",
+    "importance": 0.94862
+  },
+  {
+    "feature": "r5_uptime",
+    "importance": 0.79799
+  },
+  {
+    "feature": "icmp_loss_std",
+    "importance": 0.73348
+  },
+  {
+    "feature": "bits_sent_total",
+    "importance": 0.38459
+  },
+  {
+    "feature": "icmp_response_time_max",
+    "importance": 0.37932
+  },
+  {
+    "feature": "icmp_loss_max",
+    "importance": 0.37132
+  },
+  {
+    "feature": "r7_icmp_loss",
+    "importance": 0.36052
+  },
+  {
+    "feature": "r6_icmp_loss",
+    "importance": 0.29964
+  },
+  {
+    "feature": "r5_icmp_loss",
+    "importance": 0.28707
+  },
+  {
+    "feature": "uptime_mean",
+    "importance": 0.26082
+  },
+  {
+    "feature": "r2_icmp_loss",
+    "importance": 0.23566
+  },
+  {
+    "feature": "icmp_response_time_std",
+    "importance": 0.22116
+  },
+  {
+    "feature": "r1_icmp_loss",
+    "importance": 0.21601
+  },
+  {
+    "feature": "r4_icmp_loss",
+    "importance": 0.20187
+  },
+  {
+    "feature": "r3_icmp_loss",
+    "importance": 0.19569
+  },
+  {
+    "feature": "interface_down_count",
+    "importance": 0.16285
+  },
+  {
+    "feature": "r4_snmp_availability",
+    "importance": 0.15362
+  },
+  {
+    "feature": "r3_snmp_availability",
+    "importance": 0.15148
+  },
+  {
+    "feature": "r3_interface_down_count",
+    "importance": 0.13518
+  }
+]

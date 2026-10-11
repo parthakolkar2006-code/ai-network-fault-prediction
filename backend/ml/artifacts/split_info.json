@@ -1,0 +1,33 @@
+{
+  "embargo_minutes": 30,
+  "total_rows_original": 22381,
+  "total_rows_after_embargo": 22351,
+  "embargo_dropped_rows": 30,
+  "train": {
+    "name": "Train",
+    "rows": 17967,
+    "positives": 551,
+    "negatives": 17416,
+    "pos_rate": 3.067,
+    "start_time": "2025-10-12 10:50:00",
+    "end_time": "2025-11-14 09:56:00"
+  },
+  "validation": {
+    "name": "Validation",
+    "rows": 3250,
+    "positives": 398,
+    "negatives": 2852,
+    "pos_rate": 12.246,
+    "start_time": "2025-11-14 10:27:00",
+    "end_time": "2025-11-20 14:14:00"
+  },
+  "test": {
+    "name": "Test",
+    "rows": 1134,
+    "positives": 162,
+    "negatives": 972,
+    "pos_rate": 14.286,
+    "start_time": "2025-11-24 08:44:00",
+    "end_time": "2025-11-28 13:42:00"
+  }
+}

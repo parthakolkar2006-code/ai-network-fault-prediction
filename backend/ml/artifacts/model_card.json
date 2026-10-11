@@ -1,0 +1,33 @@
+{
+  "model_title": "LCORE-D Predictive Network Fault 30-Minute Benchmark",
+  "selected_architecture": "Logistic Regression",
+  "version": "1.0.0",
+  "optimal_threshold": 0.38,
+  "features_count": 79,
+  "target": "future_fault_30m (fault starts within 30 min, current fault excluded)",
+  "train_rows": 17967,
+  "val_rows": 3250,
+  "test_rows": 1134,
+  "test_metrics": {
+    "model_name": "Logistic Regression",
+    "optimal_threshold": 0.38,
+    "test_roc_auc": 0.3822,
+    "test_pr_auc": 0.1508,
+    "test_precision": 0.0854,
+    "test_recall": 0.1728,
+    "test_f1": 0.1143,
+    "test_f2": 0.1434,
+    "test_specificity": 0.6914,
+    "test_fpr": 0.3086,
+    "test_fnr": 0.8272,
+    "confusion_matrix": {
+      "tp": 28,
+      "fp": 300,
+      "fn": 134,
+      "tn": 672
+    }
+  },
+  "domain_scope": "Emulated Core ISP Network (LCORE-D v2)",
+  "deployment_status": "Benchmark Only. Real Wi-Fi deployment model requires laptop telemetry collection.",
+  "created_at": "2026-09-30T17:42:58.756735"
+}
