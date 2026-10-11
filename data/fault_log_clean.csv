@@ -1,0 +1,70 @@
+Fault ID,start,end,Duration (s),Fault Type,Domain of fault Injection
+F01,2025-10-12 10:58:00,2025-10-12 11:04:00,360,Single link failure,Core Fault Domain
+F02,2025-10-12 11:10:00,2025-10-12 11:16:00,360,Multiple Link Failure,Core Fault Domain
+F03,2025-10-12 11:19:00,2025-10-12 11:22:00,180,Misconfiguration,Core Fault Domain
+F04,2025-10-12 11:25:00,2025-10-12 11:28:00,180,Misconfiguration,Access Fault Domain 
+F05,2025-10-12 11:31:00,2025-10-12 11:41:00,600,Routing Misconfiguration,Core Fault Domain & Edge Fault Domain 
+F06,2025-10-12 19:06:00,2025-10-12 19:08:00,120,Line card Failure,Core Fault Domain & Edge Fault Domain 
+F07,2025-10-13 06:34:00,2025-10-13 06:40:00,360,Misconfiguration,Edge Fault Domain
+F08,2025-10-13 07:49:00,2025-10-13 08:06:00,1020,ICMP Blocked (Firewall),Core Fault Domain & Edge Fault Domain & Access Fault Domain 
+F09,2025-10-13 08:44:00,2025-10-13 08:49:00,300,Node failure,Core Failure Domain
+F10,2025-10-14 09:31:00,2025-10-14 09:34:00,180,Misconfiguration,Access Fault Domain 
+F11,2025-10-14 09:46:00,2025-10-14 09:49:00,180,Routing Misconfiguration,Core Fault Domain
+F12,2025-10-15 08:49:00,2025-10-15 08:52:00,180,Single link failure,Core Fault Domain
+F13,2025-10-15 08:58:00,2025-10-15 09:01:00,180,Misconfiguration,Core Fault Domain & Edge Fault Domain & Access Fault Domain 
+F14,2025-10-15 10:58:00,2025-10-15 11:03:00,300,Routing Misconfiguration,Edge Fault Domain
+F15,2025-10-15 11:10:00,2025-10-15 11:12:00,120,ICMP Blocked (Firewall),Core Fault Domain & Edge Fault Domain & Access Fault Domain 
+F16,2025-10-15 14:16:00,2025-10-15 14:34:00,1080,Multiple Link Failure,Core Fault Domain
+F17,2025-10-15 14:37:00,2025-10-15 14:40:00,180,Misconfiguration,Core Fault Domain
+F18,2025-10-16 07:55:00,2025-10-16 08:01:00,360,Single link failure,Edge Fault Domain
+F19,2025-10-16 08:13:00,2025-10-16 08:14:00,60,ICMP Blocked (Firewall),Core Fault Domain & Edge Fault Domain & Access Fault Domain 
+F20,2025-10-16 18:01:00,2025-10-16 18:06:00,300,Routing Misconfiguration,Core Fault Domain
+F21,2025-10-17 06:40:00,2025-10-17 06:41:00,60,Misconfiguration,Core Fault Domain
+F22,2025-10-17 06:53:00,2025-10-17 06:54:00,60,ICMP Blocked (Firewall),Core Fault Domain
+F23,2025-10-17 12:19:00,2025-10-17 12:22:00,180,Single link failure,Core Fault Domain
+F24,2025-10-17 12:27:00,2025-10-17 12:29:00,120,Misconfiguration,Core Fault Domain
+F25,2025-10-18 07:40:00,2025-10-18 07:44:00,240,Routing Misconfiguration,Core Fault Domain
+F26,2025-10-18 08:04:00,2025-10-18 08:13:00,540,Multiple Link Failure,Core Fault Domain & Edge Fault Domain 
+F27,2025-10-18 08:18:00,2025-10-18 08:20:00,120,Single link failure,Core Fault Domain
+F28,2025-10-18 11:54:00,2025-10-18 11:55:00,60,Misconfiguration,Edge Fault Domain
+F29,2025-10-18 12:28:00,2025-10-18 12:34:00,360,Single link failure,Core Fault Domain
+F30,2025-10-19 08:27:00,2025-10-19 08:34:00,420,Routing Misconfiguration,Core Fault Domain
+F31,2025-10-20 10:55:00,2025-10-20 10:57:00,120,ICMP Blocked (Firewall),Access Fault Domain 
+F32,2025-10-24 07:13:00,2025-10-24 07:16:00,180,Misconfiguration,Core Fault Domain
+F33,2025-10-24 07:22:00,2025-10-24 07:28:00,360,Single link failure,Core Fault Domain
+F34,2025-10-24 07:40:00,2025-10-24 07:49:00,540,Routing Misconfiguration,Core Fault Domain & Edge Fault Domain & Access Fault Domain 
+F35,2025-10-25 12:16:00,2025-10-25 12:17:00,60,Routing Misconfiguration,Core Fault Domain
+F36,2025-10-25 12:20:00,2025-10-25 12:21:00,60,ICMP Blocked (Firewall),Core Fault Domain
+F37,2025-10-25 12:25:00,2025-10-25 12:28:00,180,Multiple nodes failures,Core Fault Domain
+F38,2025-10-25 14:03:00,2025-10-25 14:05:00,120,Single link failure,Core Fault Domain
+F39,2025-10-25 14:19:00,2025-10-25 14:26:00,420,Misconfiguration,Core Fault Domain
+F40,2025-10-25 14:43:00,2025-10-25 14:46:00,180,Misconfiguration,Core Fault Domain
+F41,2025-10-25 16:05:00,2025-10-25 16:09:00,240,Multiple Link Failure,Core Fault Domain
+F42,2025-11-15 17:39:00,2025-11-15 17:41:00,120,ICMP Blocked (Firewall),Core Fault Domain
+F43,2025-11-15 19:25:00,2025-11-15 19:28:00,180,Line card Failure,Core Fault Domain
+F44,2025-11-16 06:46:00,2025-11-16 06:54:00,480,Multiple Link Failure,Core Fault Domain
+F45,2025-11-16 08:33:00,2025-11-16 08:35:00,120,ICMP Blocked (Firewall),Core Fault Domain & Edge Fault Domain 
+F46,2025-11-16 09:52:00,2025-11-16 09:55:00,180,Multiple Link Failure,Core Fault Domain & Edge Fault Domain 
+F47,2025-11-16 10:16:00,2025-11-16 10:19:00,180,Single link failure,Edge Fault Domain
+F48,2025-11-16 10:22:00,2025-11-16 10:34:00,720,Misconfiguration,Core Fault Domain & Edge Fault Domain & Access Fault Domain 
+F49,2025-11-16 12:49:00,2025-11-16 12:59:00,600,ICMP Blocked (Firewall),Edge Fault Domain
+F50,2025-11-16 18:29:00,2025-11-16 18:32:00,180,Single link failure,Edge Fault Domain
+F51,2025-11-17 08:31:00,2025-11-17 08:40:00,540,Single Node Failure,Core Fault Domain
+F52,2025-11-17 14:28:00,2025-11-17 14:31:00,180,Misconfiguration,Core Fault Domain
+F53,2025-11-18 07:13:00,2025-11-18 07:23:00,600,Single Node Failure,Edge Fault Domain
+F54,2025-11-18 08:48:00,2025-11-18 09:04:00,960,Multiple Link Failure,Core Fault Domain
+F55,2025-11-18 09:12:00,2025-11-18 09:19:00,420,Misconfiguration,Core Fault Domain & Edge Fault Domain 
+F56,2025-11-19 08:37:00,2025-11-19 08:38:00,60,ICMP Blocked (Firewall),Core Fault Domain & Edge Fault Domain 
+F57,2025-11-19 08:45:00,2025-11-19 08:49:00,240,Misconfiguration,Access Fault Domain 
+F58,2025-11-19 09:36:00,2025-11-19 09:38:00,120,ICMP Blocked (Firewall),Core Fault Domain
+F59,2025-11-19 13:30:00,2025-11-19 13:32:00,120,Misconfiguration,Access Fault Domain 
+F60,2025-11-20 08:38:00,2025-11-20 08:39:00,60,ICMP Blocked (Firewall),Edge Fault Domain
+F61,2025-11-20 10:10:00,2025-11-20 10:22:00,720,Routing Misconfiguration,Core Fault Domain
+F62,2025-11-20 11:13:00,2025-11-20 11:18:00,300,Single link failure,Access Fault Domain 
+F63,2025-11-25 08:43:00,2025-11-25 08:49:00,360,Misconfiguration,Access Fault Domain 
+F64,2025-11-25 10:58:00,2025-11-25 11:04:00,360,Routing Misconfiguration,Core Fault Domain
+F65,2025-11-26 09:36:00,2025-11-26 09:38:00,120,ICMP Blocked (Firewall),Edge Fault Domain
+F66,2025-11-26 11:32:00,2025-11-26 12:01:00,1740,Multiple Link Failure,Core Fault Domain
+F67,2025-11-26 12:30:00,2025-11-26 12:32:00,120,Misconfiguration,Access Fault Domain 
+F68,2025-11-26 13:30:00,2025-11-26 13:33:00,180,SNMP agent failure,Core Fault Domain
+F69,2025-11-28 10:18:00,2025-11-28 10:25:00,420,Routing Misconfiguration,Core Fault Domain
